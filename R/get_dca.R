@@ -4,11 +4,11 @@
 #' Get data related to annual accounts reports of a given set of entities of the public brazilian sector, filtered by a set of parameters passed to the function.
 #' For more information about these reports, please see: https://siconfi.tesouro.gov.br/siconfi/pages/public/conteudo/conteudo.jsf?id=82
 
-#' @param year a numeric vector
-#' @param annex character
+#' @param year a numeric vector representing the year, with four digits
+#' @param annex character vector of lenght one indicating the annex to be consulted
 #' @param entity a character vector. IBGE code of a public sector entities set.
 #' @param arg_cod_conta a character vector. Set of a accounts codes to filter the dataset. Use get_account_dca to see the accounts available. Default = NULL
-#' @param In_QDCC boolean. Default = FALSE
+#' @param In_QDCC boolean indicating if XXX. Default = FALSE
 #'
 #' @return dataframe
 #' @export
